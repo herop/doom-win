@@ -130,8 +130,8 @@ Also immediately enables `mixed-pitch-modes' if currently in one of the modes."
 ;; Info Path needed to be set because Info files where not correctly located
 (add-hook 'Info-mode-hook
           (lambda ()
-(add-to-list 'Info-default-directory-list "c:/Program Files/Emacs/emacs-28.0.50-snapshot/share/info")
-(setq Info-directory-list '("c:/Program Files/Emacs/emacs-28.0.50-snapshot/share/info"))
+(add-to-list 'Info-default-directory-list "c:/Program Files/Emacs/emacs-28.0.91/share/info")
+(setq Info-directory-list '("c:/Program Files/Emacs/emacs-28.0.91/share/info"))
 ))
 ;; Coding-System Stackoverflow questions: 2901541
   (set-language-environment 'utf-8)

@@ -1,0 +1,3 @@
+[submodule "My-DOOM-Config"]
+	path = My-DOOM-Config
+	url = git@github.com:herop/My-DOOM-Config.git
