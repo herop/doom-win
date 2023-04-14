@@ -243,7 +243,7 @@ Also immediately enables `mixed-pitch-modes' if currently in one of the modes."
 #+RESULTS:
 : +marginalia-file-size-colorful
 
-** Vusuals (man pages)
+** Visuals (man pages)
 #+begin_src emacs-lisp
 (use-package! info-colors
   :commands (info-colors-fontify-node))
@@ -1392,7 +1392,7 @@ Winner mode has been included with GNU Emacs since version 20.  This is a global
 (use-package! org-journal
       :config
       (setq org-journal-dir "~/kDrive/BC/Emacs/org/"
-      org-journal-date-prefix "#+TITLE: "
+      org-journal-date-prefix "#+title: "
       org-journal-file-format "%Y-%m-%d.org"
       org-journal-date-format "%A, %d %B %Y"
     org-journal-enable-agenda-integration t))
